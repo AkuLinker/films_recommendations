@@ -19,11 +19,6 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
-или для пользователей Windows
-
-```
-source env/Scripts/activate
-```
 
 Установить зависимости из файла requirements.txt:
 
@@ -39,4 +34,10 @@ pip install -r requirements.txt
 
 ```
 flask run
+```
+
+При желании можно заполнить бд информацией из opinions.csv
+
+```
+flask load_opinions
 ```
